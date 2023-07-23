@@ -10,3 +10,9 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+@layer base {
+    body {
+        @apply bg-[#ecf0f3] text-[#2f2f2f];
+    }
+}
