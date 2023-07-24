@@ -20,13 +20,15 @@ export default function Navbar() {
         setActive(target.innerText);
     };
     return (
-        <nav className="shadow-md w-full h-20 sticky text-[#2f2f2f] bg-[#f2f2f2]">
+        <nav className="shadow-md w-full h-20 fixed text-[#2f2f2f] bg-[#f2f2f2]">
             <div className="flex flex-nowrap items-center justify-between w-full h-full">
                 <div className="text-3xl font-bold pl-12">
+                    {"<"}
                     <Link href="/">
                         <span>A</span>
                         <span className="text-[#512bd4]">C</span>
                     </Link>
+                    {" />"}
                 </div>
                 <div>
                     <ul className="hidden md:flex items-center justify-between gap-6 mr-12 text-lg [&>li]:font-semibold [&>li]:transition [&>li]:duration-300 hover:[&>li]:text-[#512bd4]">
@@ -36,7 +38,7 @@ export default function Navbar() {
                             }
                             onClick={handleActive}
                         >
-                            <Link href="/">Home</Link>
+                            <Link href="#home">Home</Link>
                         </li>
                         <li
                             className={
@@ -80,12 +82,16 @@ export default function Navbar() {
             <div
                 className={
                     showMobileNav
-                        ? "fixed top-0 left-0 w-full h-screen bg-black/70"
-                        : "hidden"
+                        ? "md:hidden fixed top-0 left-0 w-full h-screen bg-black/70"
+                        : ""
                 }
             >
                 <div
-                    className={`fixed top-0 left-0 w-3/4 sm:w-3/5 md:w-[45%] h-screen bg-[#f2f2f2] px-6 py-3`}
+                    className={
+                        showMobileNav
+                            ? `fixed top-0 left-0 w-3/4 sm:w-3/5 md:w-[45%] h-screen bg-[#f2f2f2] px-6 py-3 ease-in-out duration-500`
+                            : `fixed top-0 left-[-100%] px-6 py-3 ease-in-out duration-500`
+                    }
                 >
                     <div className="flex w-full justify-between items-center">
                         <div className="text-3xl font-bold p-2 pl-3">
@@ -109,7 +115,7 @@ export default function Navbar() {
                                 }
                                 onClick={handleMobileNav}
                             >
-                                <Link href="/">Home</Link>
+                                <Link href="#home">Home</Link>
                             </li>
                             <li
                                 className={
