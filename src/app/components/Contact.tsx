@@ -1,41 +1,11 @@
-import Link from "next/link";
-import { BiLogoLinkedin, BiLogoGithub } from "react-icons/bi";
-
 export default function Contact() {
     return (
         <div
             id="contact"
-            className="w-full h-screen text-center flex flex-col items-center justify-center gap-[3rem] px-12"
+            className="w-full h-[400px] text-center flex flex-col items-center md:items-start justify-start gap-4 px-48"
         >
-            <div className="text-4xl font-bold">
-                Back-End <span className="text-[#512bd4]">.NET</span> Developer
-                👋
-            </div>
-            <div className="text-lg font-medium">
-                Hi, I'm{" "}
-                <span className="text-[#512bd4]">
-                    Aleksandre Chakhvashvili.
-                </span>{" "}
-                A passionate for crafting efficient and scalable solutions.
-                Proficient in various languages and frameworks.
-            </div>
-            <div>
-                <ul className="flex items-center gap-6 [&>li]:p-2 [&>li]:rounded-full [&>li]:shadow-md [&>li]:cursor-pointer [&>li]:transition [&>li]:duration-300 hover:[&>li]:text-[#512bd4]">
-                    <li>
-                        <Link
-                            href="https://www.linkedin.com/in/aleksandre-chakhvashvili/"
-                            target="_blank"
-                        >
-                            <BiLogoLinkedin size={35} />
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="https://github.com/CHAKHVA" target="_blank">
-                            <BiLogoGithub size={35} />
-                        </Link>
-                    </li>
-                </ul>
-            </div>
+            <h3 className="text-4xl font-bold text-[#512bd4]">Contact</h3>
+            <h4 className="text-2xl font-bold border-b-gray-800">Hire Me!</h4>
         </div>
     );
 }

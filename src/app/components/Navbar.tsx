@@ -20,7 +20,7 @@ export default function Navbar() {
         setActive(target.innerText);
     };
     return (
-        <nav className="shadow-md w-full h-20 fixed text-[#2f2f2f] bg-[#f2f2f2]">
+        <nav className="shadow-md w-full h-20 fixed text-[#2f2f2f] bg-[#fff]">
             <div className="flex flex-nowrap items-center justify-between w-full h-full">
                 <div className="text-3xl font-bold pl-12">
                     {"<"}
@@ -89,7 +89,7 @@ export default function Navbar() {
                 <div
                     className={
                         showMobileNav
-                            ? `fixed top-0 left-0 w-3/4 sm:w-3/5 md:w-[45%] h-screen bg-[#f2f2f2] px-6 py-3 ease-in-out duration-500`
+                            ? `fixed top-0 left-0 w-3/4 sm:w-3/5 md:w-[45%] h-screen bg-[#f9f9f9] px-6 py-3 ease-in-out duration-500`
                             : `fixed top-0 left-[-100%] px-6 py-3 ease-in-out duration-500`
                     }
                 >
