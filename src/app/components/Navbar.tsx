@@ -155,7 +155,7 @@ export default function Navbar() {
                     </div>
                     <div className="border-t-2 border-x-gray-600 p-3 mt-40">
                         <h3 className="text-xl font-semibold text-[#512bd4]">
-                            LET'S CONNECT!
+                            LET&apos;S CONNECT!
                         </h3>
                         <ul className="flex items-center mt-6 gap-6 [&>li]:p-2 [&>li]:rounded-full [&>li]:shadow-md [&>li]:cursor-pointer [&>li]:transition [&>li]:duration-300 hover:[&>li]:text-[#512bd4]">
                             <li>

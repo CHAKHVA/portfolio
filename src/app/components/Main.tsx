@@ -9,12 +9,12 @@ export default function Main() {
         >
             <div className="text-4xl font-bold">Back-End Developer 👋</div>
             <div className="text-lg font-medium mx-auto max-w-[500px]">
-                Hi, I'm{" "}
+                Hi, I'm&nbsp;
                 <span className="text-[#512bd4]">
                     Aleksandre Chakhvashvili.
-                </span>{" "}
-                A passionate for crafting efficient and scalable solutions.
-                Proficient in various languages and frameworks.
+                </span>
+                &nbsp; A passionate for crafting efficient and scalable
+                solutions. Proficient in various languages and frameworks.
             </div>
             <div>
                 <ul className="flex items-center gap-6 [&>li]:p-2 [&>li]:rounded-full [&>li]:shadow-md [&>li]:cursor-pointer [&>li]:transition [&>li]:duration-300 hover:[&>li]:text-[#512bd4]">
