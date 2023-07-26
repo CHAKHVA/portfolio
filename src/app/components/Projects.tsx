@@ -12,7 +12,7 @@ export default function Projects() {
                 👋
             </div>
             <div className="text-lg font-medium">
-                Hi, I'm&nbsp;
+                Hi, I&apos;m&nbsp;
                 <span className="text-[#512bd4]">
                     Aleksandre Chakhvashvili.
                 </span>

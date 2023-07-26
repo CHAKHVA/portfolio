@@ -9,7 +9,7 @@ export default function Main() {
         >
             <div className="text-4xl font-bold">Back-End Developer 👋</div>
             <div className="text-lg font-medium mx-auto max-w-[500px]">
-                Hi, I'm&nbsp;
+                Hi, I&apos;m&nbsp;
                 <span className="text-[#512bd4]">
                     Aleksandre Chakhvashvili.
                 </span>
