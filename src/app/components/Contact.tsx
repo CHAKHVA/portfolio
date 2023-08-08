@@ -6,10 +6,10 @@ export default function Contact() {
         >
             <h3 className="text-4xl font-bold text-[#512bd4]">Contact</h3>
             <h4 className="text-2xl font-bold border-b-gray-800">Hire Me!</h4>
-            <p className="text-xl font-semibold">
+            <p className="text-md font-medium">
                 aleksandre.chakhvashvili24@gmail.com
             </p>
-            <p>+995571273372</p>
+            <p className="text-md font-medium">+995571273372</p>
         </div>
     );
 }
