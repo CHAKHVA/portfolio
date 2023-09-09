@@ -7,7 +7,7 @@ export default function Main() {
             id="home"
             className="w-full h-screen text-center flex flex-col items-center justify-center gap-[3rem] px-12"
         >
-            <div className="text-4xl font-bold">Back-End Developer 👋</div>
+            <div className="text-4xl font-bold">Software Engineer 👋</div>
             <div className="text-lg font-medium mx-auto max-w-[500px]">
                 Hi, I&apos;m&nbsp;
                 <span className="text-[#512bd4]">

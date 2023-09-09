@@ -17,7 +17,7 @@ export default function Skills() {
                         height={50}
                         alt="C#"
                     />
-                    <span className="text-xl">C#</span>
+                    <span className="text-xl hidden md:inline">C#</span>
                 </div>
                 <div className="px-3 py-6 duration-500 hover:shadow-skill flex items-center justify-start gap-3 border-[3px] rounded-md border-black">
                     <Image
@@ -26,7 +26,9 @@ export default function Skills() {
                         height={50}
                         alt="ASP.NET Core"
                     />
-                    <span className="text-xl">ASP.NET Core</span>
+                    <span className="text-xl hidden md:inline">
+                        ASP.NET Core
+                    </span>
                 </div>
                 <div className="px-3 py-6 duration-500 hover:shadow-skill flex items-center justify-start gap-3 border-[3px] rounded-md border-black">
                     <Image
@@ -35,7 +37,7 @@ export default function Skills() {
                         height={50}
                         alt="Python"
                     />
-                    <span className="text-xl">Python</span>
+                    <span className="text-xl hidden md:inline">Python</span>
                 </div>
                 <div className="px-3 py-6 duration-500 hover:shadow-skill flex items-center justify-start gap-3 border-[3px] rounded-md border-black">
                     <Image
@@ -44,7 +46,7 @@ export default function Skills() {
                         height={50}
                         alt="Java"
                     />
-                    <span className="text-xl">Java</span>
+                    <span className="text-xl hidden md:inline">Java</span>
                 </div>
 
                 <div className="px-3 py-6 duration-500 hover:shadow-skill flex items-center justify-start gap-3 border-[3px] rounded-md border-black">
@@ -54,7 +56,7 @@ export default function Skills() {
                         height={50}
                         alt="TypeScript"
                     />
-                    <span className="text-xl">TypeScript</span>
+                    <span className="text-xl hidden md:inline">TypeScript</span>
                 </div>
                 <div className="px-3 py-6 duration-500 hover:shadow-skill flex items-center justify-start gap-3 border-[3px] rounded-md border-black">
                     <Image
@@ -63,7 +65,7 @@ export default function Skills() {
                         height={50}
                         alt="ReactJS"
                     />
-                    <span className="text-xl">ReactJS</span>
+                    <span className="text-xl hidden md:inline">ReactJS</span>
                 </div>
                 <div className="px-3 py-6 duration-500 hover:shadow-skill flex items-center justify-start gap-3 border-[3px] rounded-md border-black">
                     <Image
@@ -72,16 +74,7 @@ export default function Skills() {
                         height={50}
                         alt="NextJS"
                     />
-                    <span className="text-xl">NextJS</span>
-                </div>
-                <div className="px-3 py-6 duration-500 hover:shadow-skill flex items-center justify-start gap-3 border-[3px] rounded-md border-black">
-                    <Image
-                        src="/assets/angular.png"
-                        width={50}
-                        height={50}
-                        alt="Angular"
-                    />
-                    <span className="text-xl">Angular</span>
+                    <span className="text-xl hidden md:inline">NextJS</span>
                 </div>
                 <div className="px-3 py-6 duration-500 hover:shadow-skill flex items-center justify-start gap-3 border-[3px] rounded-md border-black">
                     <Image
@@ -90,16 +83,7 @@ export default function Skills() {
                         height={50}
                         alt="SQL"
                     />
-                    <span className="text-xl">SQL</span>
-                </div>
-                <div className="px-3 py-6 duration-500 hover:shadow-skill flex items-center justify-start gap-3 border-[3px] rounded-md border-black">
-                    <Image
-                        src="/assets/azure.png"
-                        width={50}
-                        height={50}
-                        alt="Azure"
-                    />
-                    <span className="text-xl">Azure</span>
+                    <span className="text-xl hidden md:inline">SQL</span>
                 </div>
                 <div className="px-3 py-6 duration-500 hover:shadow-skill flex items-center justify-start gap-3 border-[3px] rounded-md border-black">
                     <Image
@@ -108,7 +92,7 @@ export default function Skills() {
                         height={50}
                         alt="Docker"
                     />
-                    <span className="text-xl">Docker</span>
+                    <span className="text-xl hidden md:inline">Docker</span>
                 </div>
                 <div className="px-3 py-6 duration-500 hover:shadow-skill flex items-center justify-start gap-3 border-[3px] rounded-md border-black">
                     <Image
@@ -117,7 +101,7 @@ export default function Skills() {
                         height={50}
                         alt="Git"
                     />
-                    <span className="text-xl">Git</span>
+                    <span className="text-xl hidden md:inline">Git</span>
                 </div>
             </div>
         </div>
